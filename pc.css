@@ -18,6 +18,7 @@
 :root {
     --img-main: url("https://nrirn.github.io/10ming_CSS/main.png");
     --img-logo: url("https://nrirn.github.io/10ming_CSS/logo.png");
+    --img-totop: url("https://nrirn.github.io/10ming_CSS/bottom.png")
 }
 
 
@@ -400,20 +401,6 @@ header .row>div:nth-child(1)>a img {
 
 
 
-
-/* 메인버튼 위치 이동 */
-#board-info #board-info-profile-img {
-    width: 90px;
-    height: 90px;
-    background: url('https://nrirn.github.io/10ming_CSS/main.png');
-    position: absolute;
-    top: 16px;
-    left: 30px;
-    border-radius: 5%;
-}
-
-
-
 /* 링크 색상 */
 #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged,
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
@@ -471,3 +458,23 @@ div #article-list #boardSearchForm>input[type=text]:focus {
   display: none;
 }
  */
+
+
+/* go to top */
+#movetotop img {
+    display: none
+}
+
+#movetotop {
+    display: inline-block;
+    opacity: 1;
+    background: var(--img-totop);
+    width: 250px;
+    height: 39px;
+    background-size: contain;
+}
+
+
+
+
+
