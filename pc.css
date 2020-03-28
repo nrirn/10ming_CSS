@@ -16,8 +16,8 @@
 
 /* 기본 데이터 */
 :root {
-    --img-main: url("https://upload.tgd.kr/20200328/3dc52ffe518b467e2dbffe136eb1d0f3.png");
-    --img-logo: url("https://upload.tgd.kr/20200328/7e48273589883e391410c7a9d49b648f.png");
+    --img-main: url("https://nrirn.github.io/10ming_CSS/main.png");
+    --img-logo: url("https://nrirn.github.io/10ming_CSS/logo.png");
 }
 
 
@@ -181,7 +181,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info h1>a:nth-child(1) {
     font-size: 30px;
-    color: #9db1bb
+    color: #000000
 }
 
 #board-info h1>a:hover {
@@ -203,7 +203,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers {
-    color: #9db1bb;
+    color: #000000;
     font-family: 'NanumSquareRound';
     font-size: 13.2px;
 }
@@ -405,7 +405,7 @@ header .row>div:nth-child(1)>a img {
 #board-info #board-info-profile-img {
     width: 90px;
     height: 90px;
-    background: url('https://upload.tgd.kr/20200328/9560451b1270af07c922e58e4bcb4db8.png');
+    background: url('https://nrirn.github.io/10ming_CSS/main.png');
     position: absolute;
     top: 16px;
     left: 30px;
