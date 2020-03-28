@@ -465,7 +465,9 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 }
 
 
-/* Go to top 삭제 */
+/* Go to top 삭제를 삭제 */
+/* 
 #movetotop img {
   display: none;
 }
+ */
