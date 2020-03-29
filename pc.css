@@ -208,7 +208,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers:after {
-content: "분 대기 중♥";
+content: "명 대기 중♥";
 cursor: text;
 }
 
