@@ -470,7 +470,7 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 
 /** 움짤 추가 **/
 
-.fr-command.fr-emoticon[data-param1=01_wtf]>img {
+.fr-command.fr-emoticon[data-param1=JKanStyle]>img {
     width: 24px !important;
     height: 24px !important;
     padding-left: 24px;
@@ -479,7 +479,7 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 }
 
 
-.fr-emoticon.fr-deletable>img[alt=01_wtf] {
+.fr-emoticon.fr-deletable>img[alt=JKanStyle] {
     width: 112px !important;
     height: 112px !important;
     padding-left: 112px !important;
