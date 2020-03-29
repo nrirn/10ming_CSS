@@ -470,7 +470,7 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 
 /** 움짤 추가 **/
 
-.fr-command.fr-emoticon[data-param1=JR-?\)]>img {
+.fr-command.fr-emoticon[data-param1=HolidayTree)]>img {
     width: 56px !important;
     height: 56px !important;
     padding-left: 24px;
@@ -479,7 +479,7 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 }
 
 
-.fr-emoticon.fr-deletable>img[alt=R-?\)] {
+.fr-emoticon.fr-deletable>img[alt=HolidayTree)] {
     width: 112px !important;
     height: 112px !important;
     padding-left: 112px !important;
