@@ -469,8 +469,8 @@ div #article-list #boardSearchForm>input[type=text]:focus {
     display: inline-block;
     opacity: 1;
     background: var(--img-totop);
-    width: 320px;
-    height: 589px;
+    width: 170px;
+    height: 313px;
     background-size: contain;
 }
 
