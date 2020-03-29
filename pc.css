@@ -386,11 +386,13 @@ header .row>div:nth-child(1)>a img {
 }
 
 /* 타이틀 이미지  */
-.col-xs-4:nth-child(1):before {
+#board-info > h1 > a::before {
     content: url(https://nrirn.github.io/10ming_CSS/logo.png);
     left: 500px;
     top: 5px;
     position: absolute;
+    top: -152px;
+    left: 302px
 }
 
 .fa-user:before {
@@ -464,7 +466,6 @@ div #article-list #boardSearchForm>input[type=text]:focus {
     height: 313px;
     background-size: contain;
 }
-
 
 
 
