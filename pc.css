@@ -14,12 +14,6 @@
 }
 
 
-/* 기본 데이터 */
-:root {
-    --img-main: url("https://nrirn.github.io/10ming_CSS/main.png");
-    --img-logo: url("https://nrirn.github.io/10ming_CSS/logo.png");
-    --img-totop: url("https://nrirn.github.io/10ming_CSS/bottom.png")
-}
 
 
 
@@ -59,7 +53,7 @@ img#board-info-profile-img:hover {
 header #right-search-form>input[type=text] {
  border-color:#04bc71;
  border-radius:0.4em;
- font-size: 14px
+ font-size: 14px;
 }
 
 header #right-search-form>input[type=text]::placeholder {
@@ -67,15 +61,15 @@ header #right-search-form>input[type=text]::placeholder {
 }
 
 header #right-search-form>input[type=text]:focus {
- box-shadow:0 0 20px #5ae2aa
+ box-shadow:0 0 20px #5ae2aa !important;
 }
 
 header #right-search-form>input[type=text]:focus::placeholder {
- color:transparent!important
+ color:transparent !important;
 }
 
 header #right-search-form>#right-search-btn {
- color:#04bc71
+ color:#04bc71 !important;
 }
 
 
@@ -199,24 +193,28 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 
 /* 방문자 */
-#board-info #viewers-area .fa-user:before {
-    color: #000000;
-}
-
-#board-info #viewers-area #viewers {
-    color: #000000;
-    font-family: 'NanumSquareRound';
-    font-size: 13.2px;
+#board-info #viewers-area {
+  color: #000000;
+  font-size: 15px;
+  font-family: NanumSquareRound;
+  font-weight: bold;
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "박보검 상위호환 ";
-    cursor: text;
+  content: url(https://nrirn.github.io/10ming_CSS/tsu.png);
+  position: relative;
+  top: 12px;
+  left: -4px
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명 대기 중♥";
-    cursor: text;
+content: "분 대기 중♥";
+cursor: text;
+}
+
+#viewers-area #viewers{
+float: right;
+margin: -40px 0 0 3px;
 }
 
 
@@ -371,7 +369,7 @@ span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
 /* 트게더 메인으로(높낮이포함) */
 header .row>div:nth-child(1)>a {
     background-repeat: no-repeat;
-    background-image: var(--img-main);
+    background-image: url(https://nrirn.github.io/10ming_CSS/main.png);
     background-size: 140px;
     width: 140px;
     height: 50px;
@@ -389,7 +387,7 @@ header .row>div:nth-child(1)>a img {
 
 /* 타이틀 이미지  */
 .col-xs-4:nth-child(1):before {
-    content: var(--img-logo);
+    content: url(https://nrirn.github.io/10ming_CSS/logo.png);
     left: 500px;
     top: 5px;
     position: absolute;
@@ -452,13 +450,6 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 }
 
 
-/* Go to top 삭제를 삭제 */
-/* 
-#movetotop img {
-  display: none;
-}
- */
-
 
 /* go to top */
 #movetotop img {
@@ -468,12 +459,11 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 #movetotop {
     display: inline-block;
     opacity: 1;
-    background: var(--img-totop);
+    background: url(https://nrirn.github.io/10ming_CSS/bottom.png);
     width: 170px;
     height: 313px;
     background-size: contain;
 }
-
 
 
 
