@@ -470,16 +470,16 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 
 /** 움짤 추가 **/
 
-.fr-command.fr-emoticon[data-param1=OptimizePrime)]>img {
+.fr-command.fr-emoticon[data-param1=JKanStyle)]>img {
     width: 56px !important;
     height: 56px !important;
-    padding-left: 0px;
-    background-image: url("https://nrirn.github.io/10ming_CSS/01_wtf56.gif");
-    background-size: 100%;
+    padding-left: 56px;
+    background-image: url("https://nrirn.github.io/10ming_CSS/01_wtf112.gif");
+    background-size: 50%;
 }
 
 
-.fr-emoticon.fr-deletable>img[alt=OptimizePrime)] {
+.fr-emoticon.fr-deletable>img[alt=JKanStyle)] {
     width: 112px !important;
     height: 112px !important;
     padding-left: 112px !important;
