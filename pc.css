@@ -21,7 +21,7 @@
 /* 배경 그라디언트 */
 html {
     height: auto !important;
-    background: linear-gradient(to bottom, #ffffff, #edfff8, #04bc71);
+    background: linear-gradient(to bottom, #ffffff, #edfff8, #edfff8);
 }
 
 body {
