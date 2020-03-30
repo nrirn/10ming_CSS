@@ -1,9 +1,8 @@
 /* 폰트 */
-@font-face {
-  font-family: 'NanumSquareRound';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+@font-face { font-family: 'BMEULJIRO'; 
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal; 
 }
 
 @font-face {
@@ -162,7 +161,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info h1 {
- margin:37px 0 0 95px;
+ margin:25px 0 0 95px;
  border-bottom:1px solid;
  border-color: #5ae2aa
 }
@@ -175,7 +174,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info h1>a:nth-child(1) {
-    font-size: 30px;
+    font-size: 40px;
     color: #000000
 }
 
@@ -194,22 +193,27 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* 방문자 */
 #board-info #viewers-area {
-  color: #000000;
-  font-size: 15px;
-  font-family: NanumSquareRound;
-  font-weight: bold;
+  color: #ff5200;
+  font-size: 20px;
+  font-family: BMEULJIRO;
+  position: relative;
+  top: 12px;
+  left: 2px
 }
 
 #board-info #viewers-area #viewers:before {
-  content: url(https://nrirn.github.io/10ming_CSS/tsu.png);
+  content: url(https://nrirn.github.io/10ming_CSS/tsu_01.png);
   position: relative;
-  top: 12px;
-  left: -4px
+  top: 9px;
+  left: -4px;
 }
 
 #board-info #viewers-area #viewers:after {
-content: "명 대기 중♥";
-cursor: text;
+  content: url(https://nrirn.github.io/10ming_CSS/tsu_02.png);
+  cursor: text;
+  position: relative;
+  top: 3px;
+  left: 2px
 }
 
 #viewers-area #viewers{
