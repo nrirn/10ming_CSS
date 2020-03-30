@@ -465,9 +465,9 @@ div #article-list #boardSearchForm>input[type=text]:focus {
 #movetotop {
     display: inline-block;
     opacity: 1;
-    background: url(https://nrirn.github.io/10ming_CSS/bottom.png);
-    width: 170px;
-    height: 313px;
+    background: url(https://nrirn.github.io/10ming_CSS/gototop_01.png);
+    width: 200px;
+    height: 350px;
     background-size: contain;
 }
 
